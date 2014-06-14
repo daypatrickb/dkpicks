@@ -20,6 +20,8 @@ Delete servlet-api.jar in ./lib/ext of Jetty
 
 In the pickem workspace, set the build.xml to point to your Jetty webapps directory (at the bottom of the file). It is recommended to use JDK 7
 
+
+
 Set an Ant property in Eclipse for the deploy location:
 
 Preferences > Ant > Runtime > Properties
@@ -30,6 +32,8 @@ Value: [put the webapps directory of jetty, for example C:\jetty\webapps\ or /ho
 
 
 Run the build.xml as an ant process, to deploy the .WAR file.
+
+
 
 
 Start Jetty via the console using command "java -jar start.jar" within the Jetty directory.
