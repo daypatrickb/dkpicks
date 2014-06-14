@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Picks"
+  id="myeclipse.1394631580264"
+  context-root="/Picks"
+  j2ee-spec="6.0"
+  archive="Picks.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

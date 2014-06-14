@@ -1,0 +1,27 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="model">
+
+    <class name="Player" table="T_PLAYER">
+        <id name="id" column="ID_PLAYER">
+            <generator class="increment"/>
+        </id>
+        <property name="name" type="string" column="player_name"/>
+        <property name="favoriteTeamID" type="int" column="id_team" />
+        <one-to-one name="user" class="User" />
+        
+    </class>
+    
+    <class name="User" table="T_USER">
+        <id name="id" column="ID_USER">
+            <generator class="increment"/>
+        </id>
+        <property name="nickname" type="string" column="username"/>
+        <property name="googleID" type="string" column="google_id"/>
+        <one-to-one name="player" class="Player" />
+    </class>
+    
+
+</hibernate-mapping>
