@@ -16,6 +16,7 @@ public class PicksProperties {
 			ClassLoader loader = Thread.currentThread().getContextClassLoader();           
 			InputStream stream = loader.getResourceAsStream("/picks.properties");
 			prop.load(stream);
+			System.out.println("LOADED PROPERTIES");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

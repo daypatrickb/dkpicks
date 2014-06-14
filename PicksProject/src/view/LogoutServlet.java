@@ -107,10 +107,7 @@ public class LogoutServlet extends HttpServlet {
 				response.setStatus(HttpServletResponse.SC_OK);
 				response.getWriter().print(GSON.toJson("Successfully disconnected."));
 
-				session.removeAttribute("token");
-				session.removeAttribute(Constants.SESSION_USER_ID_KEY);
-
-				session.invalidate();
+				
 
 			} catch (IOException e) 
 			{
@@ -119,6 +116,11 @@ public class LogoutServlet extends HttpServlet {
 				response.getWriter().print(GSON.toJson("Failed to revoke token for given user."));
 			}
 		}
+		
+		session.removeAttribute("token");
+		session.removeAttribute(Constants.SESSION_USER_ID_KEY);
+
+		session.invalidate();
 
 		response.sendRedirect("/");
 	}

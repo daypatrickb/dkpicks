@@ -34,7 +34,7 @@ public class ScoreboardServlet extends HttpServlet
 
 		if (user == null)
 		{
-			resp.sendRedirect("/login.html");		
+			resp.sendRedirect(UIHelper.getLoginURL());		
         	return;
 		}
 		

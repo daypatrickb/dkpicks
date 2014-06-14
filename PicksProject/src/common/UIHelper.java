@@ -147,7 +147,21 @@ public class UIHelper {
     	return tdClass;
 	}
 
-
+	public static String getLoginURL()
+	{
+		if (PicksProperties.get("debug.login").equals("true"))
+		{
+			return "/debuglogin?user="+getDebugUserID();
+		} else
+		{
+			return "/login.html";
+		}
+	}
+	
+	public static String getDebugUserID()
+	{
+		return PicksProperties.get("debug.login.userid");
+	}
 
 	
 }
