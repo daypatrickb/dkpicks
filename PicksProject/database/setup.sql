@@ -4,6 +4,18 @@
 create user 'picks' identified by 'picks';
 
 --
+-- 2. create database
+--
+create database `picks`;
+
+
+--
+-- 3. select database
+--
+use 'picks';
+
+
+--
 -- Table structure for table `t_player`
 --
 
