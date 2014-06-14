@@ -11,5 +11,6 @@ public abstract class Constants {
 	
 	public static final String SESSION_USER_ID_KEY = "picks_user_id_session_key";
 	
+	public static final String EAT_A_BAG_OF = "DICKS";
 	
 }
