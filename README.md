@@ -21,8 +21,11 @@ Delete servlet-api.jar in ./lib/ext of Jetty
 In the pickem workspace, set the build.xml to point to your Jetty webapps directory (at the bottom of the file). It is recommended to use JDK 7
 
 Set an Ant property in Eclipse for the deploy location:
+
 Preferences > Ant > Runtime > Properties
+
 Name: PICKS_DEPLOY_DIR
+
 Value: [put the webapps directory of jetty, for example C:\jetty\webapps\ or /home/dh/jetty/webapps/   ]
 
 
