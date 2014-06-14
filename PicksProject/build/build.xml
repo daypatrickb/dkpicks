@@ -46,7 +46,7 @@
 
 
 	<target name="deploy">
-		<copy file="root.war" todir="/home/dhall/jetty/webapps/" overwrite="true"  />
+		<copy file="root.war" todir="${PICKS_DEPLOY_DIR}" overwrite="true"  />
 	</target>
 
 </project>
