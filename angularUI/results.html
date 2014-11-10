@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<!-- BOOTSTRAP -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+		<script src="js/results.js"></script>
+	</head>
+	<body ng-app="Picks" ng-controller="ResultsControl">
+      <!-- Static navbar -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Eat a Bag of Pick'Em</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="weekPicks.html">Make Picks</a></li>
+            <li class="active"><a href="#">Results</a></li>
+            <li><a href="standings.html">Standings</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+      <h2>Week {{results.week}}</h2>
+      <table class="table table-striped table-hover container">
+        <tr>
+          <th>Game Result</th>
+          <th ng-repeat="item in results.users">{{item.name}}</th>
+        </tr>
+        <tr ng-repeat="item in results.gms">
+          <td>{{item.v}} {{item.vs}} @ {{item.h}} {{item.hs}}</td>
+          <td ng-repeat="pick in item.picks">{{pick.team}} {{pick.amount}} <span ng-show="pick.points > 0"class="badge alert-success glyphicon glyphicon-ok">{{pick.points}}</span><span ng-show="pick.points == 0"class="badge alert-danger glyphicon glyphicon-remove">{{pick.points}}</span></td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <th ng-repeat="item in results.users">{{item.total}} 
+            <span ng-show="item.result == 1" class="badge alert-warning glyphicon glyphicon-certificate">1st</span>
+            <span ng-show="item.result == 2" class="badge">2nd</span>
+            <span ng-show="item.result == 3" class="badge">3rd</span>
+            <span ng-show="item.result == 4" class="badge">4th</span>
+          </th>
+        </tr>
+      </table>
+	</body>
+</html>

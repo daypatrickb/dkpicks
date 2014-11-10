@@ -1,0 +1,612 @@
+{
+	"users": [
+		{"name": "Dave", "total": 15, "result": 1}, 
+		{"name": "Dennis", "total": 14, "result": 2}, 
+		{"name": "Dylan", "total": 14, "result": 3}, 
+		{"name": "Jeff", "total": 14, "result": 4}, 
+		{"name": "Justin", "total": 14, "result": 5}, 
+		{"name": "Pat", "total": 14, "result": 6}, 
+		{"name": "Mexisnow", "total": 14, "result": 7}
+	],
+	"week": 10,
+	"gms":[
+	  {
+	     "hs": 3,
+	     "vs": 24,
+	     "h": "CIN",
+	     "v": "CLE",
+	     "vnn": "Browns",
+	     "hnn": "Bengals",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "CLE",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "CLE",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "CLE",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "CLE",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "CLE",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "CLE",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "CIN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+	  },
+    {
+       "hs": 7,
+       "vs": 7,
+       "h": "BAL",
+       "v": "TEN",
+       "vnn": "Titans",
+       "hnn": "Ravens",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 10,
+       "vs": 3,
+       "h": "BUF",
+       "v": "KC",
+       "vnn": "Chiefs",
+       "hnn": "Bills",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "BUF",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "KC",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "KC",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BUF",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "KC",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "KC",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "BUF",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 10,
+       "vs": 3,
+       "h": "DET",
+       "v": "MIA",
+       "vnn": "Dolphins",
+       "hnn": "Lions",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "DET",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "MIA",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "DET",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "MIA",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "MIA",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "MIA",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "DET",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 7,
+       "vs": 17,
+       "h": "JAC",
+       "v": "DAL",
+       "vnn": "Cowboys",
+       "hnn": "Jaguars",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "JAC",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "DAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "DAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "DAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "JAC",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "DAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "JAC",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 10,
+       "vs": 21,
+       "h": "NO",
+       "v": "SF",
+       "vnn": "49ers",
+       "hnn": "Saints",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 17,
+       "vs": 3,
+       "h": "NYJ",
+       "v": "PIT",
+       "vnn": "Steelers",
+       "hnn": "Jets",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 9,
+       "vs": 10,
+       "h": "TB",
+       "v": "ATL",
+       "vnn": "Falcons",
+       "hnn": "Buccaneers",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 0,
+       "vs": 0,
+       "h": "OAK",
+       "v": "DEN",
+       "vnn": "Broncos",
+       "hnn": "Raiders",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 0,
+       "vs": 0,
+       "h": "ARI",
+       "v": "STL",
+       "vnn": "Rams",
+       "hnn": "Cardinals",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 0,
+       "vs": 0,
+       "h": "SEA",
+       "v": "NYG",
+       "vnn": "Giants",
+       "hnn": "Seahawks",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 0,
+       "vs": 0,
+       "h": "GB",
+       "v": "CHI",
+       "vnn": "Bears",
+       "hnn": "Packers",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    },
+    {
+       "hs": 0,
+       "vs": 0,
+       "h": "PHI",
+       "v": "CAR",
+       "vnn": "Panthers",
+       "hnn": "Eagles",
+	     "picks": [
+	       {
+	       	"name": "Dave",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 1
+	       },	         {
+	       	"name": "Dennis",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 0
+	       },	         {
+	       	"name": "Dylan",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Jeff",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Justin",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Pat",
+	       	"team": "BAL",
+	       	"amount": "14",
+	       	"points": 2
+	       },	         {
+	       	"name": "Mexisnow",
+	       	"team": "TEN",
+	       	"amount": "14",
+	       	"points": 0
+	       }
+	     ]
+    }
+   ]
+}

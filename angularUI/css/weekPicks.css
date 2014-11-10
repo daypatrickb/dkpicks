@@ -1,0 +1,11 @@
+
+.diffInput {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  background: transparent;
+  width: 75px;
+}
+.diffInput.ng-invalid {
+  color:white;
+  background: red;
+}
