@@ -1,0 +1,74 @@
+<h1>Scoreboard</h1>
+<table class="tblGenFixed" id="tblMain" border="0" cellpadding="0" cellspacing="0">
+  <thead>
+  	<tr>
+  		<th style="width:120px"> <%= @season %></th> <!-- week name -->
+  		<th class="spacer-black" style="width:16px"></th> <!-- spacer -->
+  		<th colspan="<%= @players.count %>" style="width:<%= @players.count * 50 %>px">Total Weekly Points</th>
+  		<th class="spacer-black" style="width:16px"></th> <!-- spacer -->
+  		<th colspan="<%= @players.count %>" style="width:<%= @players.count * 50 %>px">Total Points</th>
+  		<th></th> <!-- multiplier details -->
+  	</tr>
+    <tr>
+      <th class="spacer-black"></th> <!-- week name -->
+      <th class="spacer-black"></th> <!-- spacer -->
+      <% @players.each do |player| %>
+        <th class="<%= player_style(player) %>" style="width:50px"><%= player.name %></th>
+      <% end %>
+      <th class="spacer-black"></th> <!-- spacer -->
+      <% @players.each do |player| %>
+        <th class="<%= player_style(player) %>" style="width:50px"><%= player.name %></th>
+      <% end %>
+      <th></th> <!-- multiplier details -->
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+    	<td class="s21">Total</td>
+    	<td class="spacer-black"></td> <!-- spacer -->
+        <% @players.each do |player| %>
+
+        <td class="s23">5</td>
+        <% end %>
+        <td class="spacer-black"></td> <!-- spacer -->
+        <% @players.each do |player| %>
+
+        <td class="s23">5</td>
+        <% end %>
+        <td></td>
+    </tr>
+    <% for week in 1..(17+4) %>
+      <tr>
+        <td><%= link_to( name_for_week(week) , picks_path(season:@season, week:week) ) %> </td> <!-- Week name-->
+        <td class="spacer-black"></td> <!-- spacer -->
+        <% @players.each do |player| %>
+
+        	<td class="s30">5</td> <!-- weekly points -->
+        <% end %>
+        <td class="spacer-black"></td> <!-- spacer -->
+        <% @players.each do |player| %>
+
+        	<td>5</td> <!-- total points -->
+        <% end %>
+        <td></td>
+      </tr>
+    <% end %>
+    <tr>
+    	<td class="s21">Total</td>
+    	<td class="spacer-black"></td> <!-- spacer -->
+        <% @players.each do |player| %>
+
+        <td class="s23">5</td>
+        <% end %>
+        <td class="spacer-black"></td> <!-- spacer -->
+        <% @players.each do |player| %>
+
+        <td class="s23">5</td>
+        <% end %>
+        <td></td>
+    </tr>
+  </tbody>
+</table>
+<br/><br/>
+<%= link_to "Refresh League", :controller => :scoreboard, :action => :regenerate %>

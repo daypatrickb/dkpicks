@@ -1,0 +1,71 @@
+
+<table class="tblGenFixed" id="tblMain" border="0" cellpadding="0" cellspacing="0">
+  <thead>
+    <tr>
+      <th style="width:100px"><%= name_for_week(@week) %></th>
+      <th class="spacer-black" style="width:16px"></th> <!-- spacer -->
+      <% @players.each do |player| %>
+        <th class="<%= player_style(player) %>" style="width:75px"><%= player.name %></th>
+      <% end %>
+      <th class="spacer-black" style="width:16px"></th> <!-- spacer -->
+      <th style="width:75px">Actual</th>
+      <th class="spacer-black" style="width:16px"></th> <!-- spacer -->
+      <th class="spacer-black" style="width:120px">.</th> <!-- descriptions -->
+      <th class="spacer-black" style="width:45px">.</th> <!-- end -->
+    </tr>
+    <tr>
+    <td class="spacer-black">.</td>
+    <td class="spacer-black"></td>
+      <% @players.each do |player| %>
+            <td class="spacer-black"></td>
+      <% end %>
+    <td class="spacer-black"></td>
+    <td class="spacer-black"></td>
+    <td class="spacer-black"></td>
+    <td class="spacer-black"></td>
+    <td class="spacer-black"></td>
+  </tr>
+  </thead>
+
+  <tbody>
+
+    <% i = 0 %>
+    <% @games.each do |game| %>
+      <tr>
+        <td class="<%= game.game_time.style_class %>"><%= game.away_team.abbr %> @ <%= game.home_team.abbr %> </td> <!-- Game desc-->
+        <td class="spacer-black"></td> <!-- spacer -->
+
+        <% @players.each do |player| %>
+
+          <% pick = Pick.find_by({game:game, player:player}) %>
+
+          <td class="<%= game.game_time.style_class %>"><%= pick.team.abbr %> <%= pick.diff %></td>
+        <% end %>
+        <td class="spacer-black"></td> <!-- spacer -->
+        <td class="<%= game.game_time.style_class %>"><%= game.result %></td> <!-- actual -->
+        <td class="spacer-black"></td> <!-- spacer -->
+
+        <% side_content = @sidebar_content[i] %>
+        <td class="<%= side_content[:styleclass]%>"><%= side_content[:content] %></td> <!-- side content -->
+        <td class="spacer-black"></td> <!-- end -->
+
+
+      </tr>
+      <% i += 1 %>
+    <% end %>
+    <tr>
+      <td class="spacer-black"></td> <!-- game desc -->
+      <td class="spacer-black"></td> <!-- spacer -->
+      <% @players.each do |player| %>
+
+        <td class="s58">total</td>
+      <% end %>
+      <td class="spacer-black"></td> <!-- spacer -->
+      <td class="spacer-black"></td> <!-- actual -->
+      <td class="spacer-black"></td> <!-- spacer -->
+      <td class="spacer-black"></td> <!-- side content -->
+      <td class="spacer-black"></td> <!-- end -->
+    </tr>
+  </tbody>
+</table>
+
